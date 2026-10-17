@@ -2,6 +2,16 @@
 
 A premium, fully responsive restaurant website built with plain **HTML, CSS and JavaScript**. There is no framework and no build step.
 
+## Technologies
+
+| Area        | Tools                                                                  |
+| ----------- | ---------------------------------------------------------------------- |
+| Markup      | HTML5 (semantic elements, ARIA for accessibility)                       |
+| Styling     | CSS3: custom properties, Grid, Flexbox, `clamp()`, keyframe animations |
+| Behaviour   | Vanilla JavaScript (ES2022): IntersectionObserver, `Intl` API           |
+| Quality     | html-validate, Stylelint, ESLint                                       |
+| Assets      | Google Fonts, Unsplash photography, OpenStreetMap embed                |
+
 ## Features
 
 - **Hero section** with a full-screen photo, a slow zoom effect and clear calls to action
