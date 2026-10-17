@@ -1561,6 +1561,15 @@ button {
   margin: 0;
 }
 
+.footer-credit a {
+  color: var(--color-gold);
+  transition: color 0.3s var(--ease);
+}
+
+.footer-credit a:hover {
+  color: var(--color-gold-light);
+}
+
 @media (width >= 768px) {
   .footer-grid {
     grid-template-columns: 2fr 1fr 1fr;
