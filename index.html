@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Savory — Modern Kitchen &amp; Bar</title>
+    <meta
+      name="description"
+      content="Savory is a modern kitchen and bar serving seasonal plates, wood-fired dishes and handcrafted cocktails. View our menu and book a table."
+    />
+    <meta name="theme-color" content="#14110f" />
+
+    <!-- Social sharing preview -->
+    <meta property="og:title" content="Savory — Modern Kitchen &amp; Bar" />
+    <meta property="og:description" content="Seasonal plates, wood-fired dishes and handcrafted cocktails." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80&auto=format&fit=crop"
+    />
+
+    <!-- Tells the CSS that JavaScript is running, so scroll animations can start hidden without a flash -->
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============ Header / Navigation ============ -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#top" aria-label="Savory home">
+          <span class="logo-mark" aria-hidden="true">S</span>
+          <span class="logo-text">Savory</span>
+        </a>
+
+        <nav class="nav" id="site-nav" aria-label="Main">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#menu">Menu</a></li>
+            <li><a class="nav-link" href="#hours">Hours</a></li>
+            <li><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a class="btn btn-primary nav-cta" href="#reserve">Book a Table</a>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ Hero ============ -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=2000&q=80&auto=format&fit=crop"
+            alt=""
+            fetchpriority="high"
+          />
+        </div>
+        <div class="container hero-content">
+          <p class="eyebrow reveal">Modern Kitchen &amp; Bar · Est. 2014</p>
+          <h1 class="hero-title reveal" id="hero-title">
+            Where every plate<br />tells a <em>story</em>
+          </h1>
+          <p class="hero-text reveal">
+            Seasonal ingredients, wood-fired flavours and handcrafted cocktails, served in a warm,
+            candle-lit room in the heart of the city.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#reserve">Reserve a Table</a>
+            <a class="btn btn-ghost" href="#menu">Explore the Menu</a>
+          </div>
+          <ul class="hero-stats reveal">
+            <li><strong>4.9</strong><span>Guest rating</span></li>
+            <li><strong>12</strong><span>Years serving</span></li>
+            <li><strong>60+</strong><span>Local suppliers</span></li>
+          </ul>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to About section">
+          <span></span>
+        </a>
+      </section>
+
+      <!-- ============ About ============ -->
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-media reveal">
+            <img
+              class="about-img-main"
+              src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=900&q=80&auto=format&fit=crop"
+              alt="Chef finely chopping fresh herbs on a wooden board"
+              loading="lazy"
+              width="900"
+              height="1100"
+            />
+            <img
+              class="about-img-accent"
+              src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600&q=80&auto=format&fit=crop"
+              alt="Elegant dining room set for dinner service"
+              loading="lazy"
+              width="600"
+              height="600"
+            />
+            <div class="about-badge" aria-hidden="true">
+              <strong>12</strong>
+              <span>years of<br />good taste</span>
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow reveal">Our Story</p>
+            <h2 class="section-title reveal" id="about-title">
+              Honest food, cooked with care
+            </h2>
+            <p class="reveal">
+              Savory began as a twelve-seat counter with one simple idea: cook the best of each
+              season, simply and generously. Today our kitchen works with more than sixty local
+              farmers, fishers and producers to bring the freshest ingredients to your table.
+            </p>
+            <p class="reveal">
+              Chef Elena Marquez and her team blend classic technique with bold, modern flavours.
+              Expect wood-fired meats, handmade pasta and vibrant plant-forward dishes, alongside a
+              bar programme built around small-batch spirits.
+            </p>
+            <ul class="feature-list reveal">
+              <li>
+                <span class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 2C8 6 6 9.5 6 13a6 6 0 0 0 12 0c0-3.5-2-7-6-11Z" /></svg>
+                </span>
+                <div>
+                  <h3>Wood-fired kitchen</h3>
+                  <p>Open flame cooking for deep, smoky flavour.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M5 21c0-8 5-14 14-16-1 9-6 14-14 16Zm0 0 7-7" /></svg>
+                </span>
+                <div>
+                  <h3>Farm to table</h3>
+                  <p>A menu that changes with the seasons.</p>
+                </div>
+              </li>
+              <li>
+                <span class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M6 3h12l-5 8v7l3 3H8l3-3v-7L6 3Z" /></svg>
+                </span>
+                <div>
+                  <h3>Craft cocktails</h3>
+                  <p>Seasonal drinks from our in-house bar team.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Menu ============ -->
+      <section class="section menu" id="menu" aria-labelledby="menu-title">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow reveal">Taste the Season</p>
+            <h2 class="section-title reveal" id="menu-title">Our Menu</h2>
+            <p class="section-lead reveal">
+              Choose a category to explore. Dishes marked
+              <span class="tag tag-inline">V</span> are vegetarian and
+              <span class="tag tag-inline tag-spicy">Spicy</span> bring the heat.
+            </p>
+          </header>
+
+          <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+            <!-- Tabs are generated by js/main.js from js/menu-data.js -->
+          </div>
+
+          <div class="menu-grid" id="menu-panel" role="tabpanel" aria-live="polite">
+            <noscript>
+              <p class="noscript-note">
+                Please enable JavaScript to view our interactive menu, or call us on
+                (555) 123-4567.
+              </p>
+            </noscript>
+          </div>
+
+          <p class="menu-note reveal">
+            Please let your server know about any allergies. A discretionary 12% service charge is
+            added to tables of six or more.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ Hours & Info ============ -->
+      <section class="section hours" id="hours" aria-labelledby="hours-title">
+        <div class="container hours-grid">
+          <div class="hours-card reveal">
+            <div class="hours-card-head">
+              <h2 class="section-title" id="hours-title">Opening Hours</h2>
+              <p class="open-status" id="open-status" role="status">
+                <span class="status-dot" aria-hidden="true"></span>
+                <span class="status-text">Checking…</span>
+              </p>
+            </div>
+            <table class="hours-table" id="hours-table">
+              <caption class="visually-hidden">Weekly opening hours</caption>
+              <tbody>
+                <tr data-day="1"><th scope="row">Monday</th><td>Closed</td></tr>
+                <tr data-day="2"><th scope="row">Tuesday</th><td>5:00 PM – 10:00 PM</td></tr>
+                <tr data-day="3"><th scope="row">Wednesday</th><td>5:00 PM – 10:00 PM</td></tr>
+                <tr data-day="4"><th scope="row">Thursday</th><td>5:00 PM – 10:00 PM</td></tr>
+                <tr data-day="5"><th scope="row">Friday</th><td>5:00 PM – 11:30 PM</td></tr>
+                <tr data-day="6"><th scope="row">Saturday</th><td>12:00 PM – 11:30 PM</td></tr>
+                <tr data-day="0"><th scope="row">Sunday</th><td>12:00 PM – 9:00 PM</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="info-cards">
+            <article class="info-card reveal">
+              <h3>Private Dining</h3>
+              <p>
+                Our candle-lit private room seats up to 24 guests. Perfect for birthdays, rehearsal
+                dinners and business events.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Weekend Brunch</h3>
+              <p>
+                Saturdays and Sundays from 12 PM. Slow mornings, bottomless coffee and our famous
+                ricotta pancakes.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Good to Know</h3>
+              <ul class="info-list">
+                <li>Smart-casual dress code</li>
+                <li>Wheelchair accessible</li>
+                <li>Vegetarian &amp; gluten-free options</li>
+                <li>Walk-ins welcome at the bar</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Gallery ============ -->
+      <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow reveal">Moments at Savory</p>
+            <h2 class="section-title reveal" id="gallery-title">Gallery</h2>
+          </header>
+
+          <ul class="gallery-grid">
+            <li class="gallery-item gallery-item--tall reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=75&auto=format&fit=crop" alt="Bright, industrial-style dining hall with tall windows" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=75&auto=format&fit=crop" alt="Sliced grilled beef with chillies and fresh herbs" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=700&q=75&auto=format&fit=crop" alt="Amber cocktail garnished with rosemary on the bar" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item gallery-item--wide reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1000&q=75&auto=format&fit=crop" alt="Waterfront terrace with tables at sunset" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=700&q=75&auto=format&fit=crop" alt="Friends sharing brunch dishes around a table" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item gallery-item--tall reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=75&auto=format&fit=crop" alt="Moody restaurant interior with warm lighting" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=700&q=75&auto=format&fit=crop" alt="Grilled steak served with crispy fries" loading="lazy" />
+              </button>
+            </li>
+            <li class="gallery-item reveal">
+              <button type="button" class="gallery-btn" data-full="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=1600&q=80&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700&q=75&auto=format&fit=crop" alt="Strawberry panna cotta in glass jars" loading="lazy" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ Reservation ============ -->
+      <section class="section reserve" id="reserve" aria-labelledby="reserve-title">
+        <div class="reserve-bg" aria-hidden="true"></div>
+        <div class="container reserve-grid">
+          <div class="reserve-copy">
+            <p class="eyebrow reveal">Reservations</p>
+            <h2 class="section-title reveal" id="reserve-title">Book your table</h2>
+            <p class="reveal">
+              Send us a reservation request and our team will confirm by email within a few hours.
+              For parties larger than 12, please call us directly.
+            </p>
+            <ul class="reserve-points reveal">
+              <li>Tables are held for 15 minutes</li>
+              <li>Free cancellation up to 24 hours before</li>
+              <li>Tell us about special occasions — we love a celebration</li>
+            </ul>
+            <p class="reserve-phone reveal">
+              <span>Prefer to call?</span>
+              <a href="tel:+15551234567">(555)&nbsp;123&#8209;4567</a>
+            </p>
+          </div>
+
+          <form class="reserve-form reveal" id="reserve-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required minlength="2" />
+                <p class="field-error" id="name-error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <p class="field-error" id="email-error" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                <p class="field-error" id="phone-error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests" required>
+                  <option value="">Select</option>
+                  <option value="1">1 guest</option>
+                  <option value="2">2 guests</option>
+                  <option value="3">3 guests</option>
+                  <option value="4">4 guests</option>
+                  <option value="5">5 guests</option>
+                  <option value="6">6 guests</option>
+                  <option value="7">7 guests</option>
+                  <option value="8">8 guests</option>
+                  <option value="9-12">9–12 guests</option>
+                </select>
+                <p class="field-error" id="guests-error" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="date">Date</label>
+                <input id="date" name="date" type="date" required />
+                <p class="field-error" id="date-error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="time">Time</label>
+                <select id="time" name="time" required disabled>
+                  <option value="">Choose a date first</option>
+                </select>
+                <p class="field-error" id="time-error" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="notes">Special requests <span class="optional">(optional)</span></label>
+              <textarea id="notes" name="notes" rows="3" maxlength="500" placeholder="Allergies, celebrations, seating preferences…"></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit">
+              <span class="btn-label">Request Reservation</span>
+            </button>
+
+            <div class="form-success" id="form-success" role="status" hidden>
+              <h3>Thank you!</h3>
+              <p></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ============ Contact & Location ============ -->
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="contact-info">
+            <p class="eyebrow reveal">Find Us</p>
+            <h2 class="section-title reveal" id="contact-title">Contact &amp; Location</h2>
+
+            <ul class="contact-list">
+              <li class="reveal">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z" /><circle cx="12" cy="10" r="2.5" /></svg>
+                </span>
+                <div>
+                  <h3>Address</h3>
+                  <address>128 Harbor Street<br />San Francisco, CA 94111</address>
+                </div>
+              </li>
+              <li class="reveal">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" /></svg>
+                </span>
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:+15551234567">(555)&nbsp;123&#8209;4567</a>
+                </div>
+              </li>
+              <li class="reveal">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+                </span>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:hello@savory-restaurant.com">hello@savory-restaurant.com</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="socials reveal">
+              <a href="#" aria-label="Instagram (placeholder link)">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" /></svg>
+              </a>
+              <a href="#" aria-label="Facebook (placeholder link)">
+                <svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8Z" /></svg>
+              </a>
+              <a href="#" aria-label="TripAdvisor (placeholder link)">
+                <svg viewBox="0 0 24 24"><circle cx="7" cy="13" r="3.5" /><circle cx="17" cy="13" r="3.5" /><path d="M2 8h20M12 8l-2 3M12 8l2 3" /></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="map-wrap reveal">
+            <iframe
+              title="Map showing Savory restaurant location"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4060%2C37.7915%2C-122.3930%2C37.7985&amp;layer=mapnik&amp;marker=37.7950%2C-122.3995"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <a
+              class="map-link"
+              href="https://www.openstreetmap.org/?mlat=37.7950&amp;mlon=-122.3995#map=17/37.7950/-122.3995"
+              target="_blank"
+              rel="noopener"
+            >Open larger map ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ Footer ============ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="#top" aria-label="Back to top">
+            <span class="logo-mark" aria-hidden="true">S</span>
+            <span class="logo-text">Savory</span>
+          </a>
+          <p>Modern kitchen &amp; bar. Seasonal plates, wood-fired dishes and handcrafted cocktails.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Explore</h2>
+          <ul class="footer-links">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reserve">Reservations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-title">Visit</h2>
+          <p>128 Harbor Street<br />San Francisco, CA 94111</p>
+          <p>Tue–Sun · Closed Mondays</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year">2026</span> Savory. All rights reserved.</p>
+        <p class="footer-credit">Photos courtesy of Unsplash.</p>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6" /></svg>
+    </button>
+
+    <!-- Lightbox (gallery viewer) -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+      <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous image">‹</button>
+      <figure class="lightbox-figure">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" />
+        <figcaption></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Next image">›</button>
+    </div>
+
+    <script src="js/menu-data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
